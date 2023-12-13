@@ -229,5 +229,5 @@ func main() {
 	http.HandleFunc("/logout", client.HandleLogout)
 	http.HandleFunc("/callback_logout", client.HandleCallbackLogout)
 	fmt.Println("Starting server on port 8080")
-	http.ListenAndServe(":4200", nil)
+	http.ListenAndServe(":8080", nil)
 }
