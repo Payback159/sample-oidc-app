@@ -6,7 +6,7 @@ require golang.org/x/oauth2 v0.15.0
 
 require (
 	github.com/pquerna/cachecontrol v0.2.0 // indirect
-	golang.org/x/crypto v0.16.0 // indirect
+	golang.org/x/crypto v0.17.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
 )
 
